@@ -10,7 +10,10 @@ ESP32 cihazlarında farklı protokollerde gönderilen sinyallerin RSSI değerler
     
 Seri portu okuyan başka program varsa (örneğin Arduino) çalışmaz.
 
-3 - GUI programı farklı mesafelerden okunan verileri CSV formatında kaydeder. Aynı zamanda iki grafik oluşturur. 
+3 - GUI programı 
+![GUI_Ekran_Görüntüsü](https://github.com/yazturk/esp32_rssi/assets/22481884/2103dcbf-129b-4351-8469-ec1199d33e6b)
+
+Farklı mesafelerden okunan verileri CSV formatında kaydeder. Aynı zamanda iki grafik oluşturur. 
 
 Büyük oranda hatasız çalışır. Yalnız iptal butonuna basıldıktan sonra bir verinin daha okunması beklenir. Okunacak veri yoksa beklemede kalır.
 
