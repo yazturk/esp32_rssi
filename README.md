@@ -5,8 +5,10 @@ ESP32 cihazlarında farklı protokollerde gönderilen sinyallerin RSSI değerler
 1 - Slave cihazlar sinyal gönderir, Master'lar sinyal gücünü ölçerek seri porttan bilgisayara iletir.
 
 2 - Komut satırı programı basit tutulmuştur. Sadece belirtilen sayı kadar örnek okur ve her satıra bir veri olacak şekilde dosyaya kaydeder.
+
 Şu şekilde kullanılabilir:
-    GrafikCiz_CLI.py -p <protokol_ismi> -n <ornek sayisi>
+
+    VeriOku_CLI.py -p <protokol_ismi> -n <ornek sayisi>
     
 Seri portu okuyan başka program varsa (örneğin Arduino) çalışmaz.
 
@@ -22,3 +24,11 @@ Arayüz programının çalışması için de seri portu okuyan başka program va
 CSV dosyasında ilk sütun mesafelerden oluşur. Diğer sütunlar o mesafeye karşılık gelen RSSI değerleridir.
 
 Sonlandır'a tıklandığında aynı isimli dosya varsa silmek yerine ekleme yapar. Bu durumda örnek sayısının aynı olmasına dikkat edilmelidir.
+
+4 - Grafikler
+Yapılan deneylerde aynı mesafeden 500 veri alınmıştır
+
+Örnek:
+
+![BLE_boxplot](https://github.com/yazturk/esp32_rssi/assets/22481884/12c5ecf9-c86d-442b-93e8-b473e80dcca2)
+
