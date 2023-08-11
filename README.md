@@ -26,6 +26,7 @@ CSV dosyasında ilk sütun mesafelerden oluşur. Diğer sütunlar o mesafeye kar
 Sonlandır'a tıklandığında aynı isimli dosya varsa silmek yerine ekleme yapar. Bu durumda örnek sayısının aynı olmasına dikkat edilmelidir.
 
 4 - Grafikler
+
 Yapılan deneylerde aynı mesafeden 500 veri alınmıştır
 
 Örnek:
